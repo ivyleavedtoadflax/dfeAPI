@@ -3,8 +3,31 @@ Type: Package
 Title: Functions for Accessing the DfE API
 Version: 0.1.0
 Date: 2016-06-07
-Author: Matthew Upson
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: c(
+    person("Matthew", "Upson", , "matthew.a.upson@gmail.com", c("aut", "cre"))
+    )
+Maintainer: Matthew Upson <matthew.a.upson@gmail.com>
+Description: This package provides an interface to the RESTful dfe-api
+    for accessing school performance data. All data published
+    in the API is already in the public domain elswhere, and
+    access to the API os granted only on request.
+URL: https://github.com/ivyleavedtoadflax/dfeAPI/
+BugReports: https://github.com/ivyleavedtoadflax/dfeAPI/issues
+Depends:
+    R (>= 3.1.2)
+Imports:
+    assertthat,
+    utils,
+    R6,
+    Rcpp,
+    magrittr,
+    lazyeval (>= 0.1.10),
+    DBI (>= 0.3)
+Suggests:
+    dplyr,
+    testthat,
+    knitr
+VignetteBuilder: knitr
+License: MIT
 LazyData: TRUE
+RoxygenNote: 5.0.1

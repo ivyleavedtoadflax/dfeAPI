@@ -1,2 +1,0 @@
-
-* API keys need to be stored in an environmental variable. See <https://cran.r-project.org/web/packages/httr/vignettes/api-packages.html>

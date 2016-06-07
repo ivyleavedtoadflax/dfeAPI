@@ -1,0 +1,10 @@
+Package: dfeAPI
+Type: Package
+Title: Functions for Accessing the DfE API
+Version: 0.1.0
+Date: 2016-06-07
+Author: Matthew Upson
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
